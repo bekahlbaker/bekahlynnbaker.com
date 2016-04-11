@@ -4,7 +4,7 @@ module.exports = function (shipit) {
   shipit.initConfig({
     default: {
       workspace: '/tmp/bekahlynnbaker.com',
-      deployTo: '/var/www/bryanpbaker.com/html',
+      deployTo: '/var/www/bekahlynnbaker.com/html',
       repositoryUrl: 'https://github.com/bekahlbaker/bekahlynnbaker.com',
       branch: 'master',
       ignores: ['.git', 'node_modules'],
