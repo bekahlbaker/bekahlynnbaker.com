@@ -3,7 +3,7 @@
 /wp-content/upgrade
 /wp-content/uploads
 /sitemap.*
-/wp-config.php
+wp-config.php
 *.sql
 
 # Hidden files
