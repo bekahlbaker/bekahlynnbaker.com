@@ -11,8 +11,6 @@ class NF_Fields_Checkbox extends NF_Abstracts_Input
 
     protected $_section = 'common';
 
-    protected $_icon = 'check-square-o';
-
     protected $_type = 'checkbox';
 
     protected $_templates = 'checkbox';
@@ -27,7 +25,7 @@ class NF_Fields_Checkbox extends NF_Abstracts_Input
     {
         parent::__construct();
 
-        $this->_nicename = __( 'Single Checkbox', 'ninja-forms' );
+        $this->_nicename = __( 'Checkbox', 'ninja-forms' );
 
         $this->_settings[ 'label_pos' ][ 'value' ] = 'right';
 

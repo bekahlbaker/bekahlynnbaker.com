@@ -9,8 +9,6 @@ class NF_Fields_HTML extends NF_Abstracts_Input
 
     protected $_section = 'layout';
 
-    protected $_icon = 'code';
-
     protected $_aliases = array( 'html' );
 
     protected $_type = 'html';

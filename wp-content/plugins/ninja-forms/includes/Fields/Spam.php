@@ -9,9 +9,7 @@ class NF_Fields_Spam extends NF_Abstracts_Input
 
     protected $_type = 'spam';
 
-    protected $_section = 'misc';
-
-    protected $_icon = 'filter';
+    protected $_section = 'common';
 
     protected $_templates = 'textbox';
 

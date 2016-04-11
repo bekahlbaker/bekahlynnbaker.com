@@ -215,6 +215,8 @@ final class NF_Database_Models_Form extends NF_Abstracts_Model
             unset( $import[ 'settings' ][ 'form_title' ] );
         }
 
+        $import = apply_filters( 'ninja_forms_upgrade_settings', $import );
+
         // Make sure
         if( ! isset( $import[ 'fields' ] ) ){
             $import[ 'fields' ] = array();
@@ -225,8 +227,6 @@ final class NF_Database_Models_Form extends NF_Abstracts_Model
             $import[ 'fields' ] = $import[ 'field' ];
             unset( $import[ 'field' ] );
         }
-
-        $import = apply_filters( 'ninja_forms_upgrade_settings', $import );
 
         // Combine Field and Field Data
         foreach( $import[ 'fields' ] as $key => $field ){

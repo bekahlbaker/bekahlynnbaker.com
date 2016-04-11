@@ -11,8 +11,6 @@ class NF_Fields_CreditCard extends NF_Abstracts_Field
 
     protected $_section = 'pricing';
 
-    protected $_icon = 'credit-card';
-
     protected $_templates = '';
 
     protected $_test_value = '';

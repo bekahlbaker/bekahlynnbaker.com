@@ -11,8 +11,6 @@ class NF_Fields_ListRadio extends NF_Abstracts_List
 
     protected $_section = 'common';
 
-    protected $_icon = 'dot-circle-o';
-
     protected $_templates = 'listradio';
 
     protected $_old_classname = 'list-radio';

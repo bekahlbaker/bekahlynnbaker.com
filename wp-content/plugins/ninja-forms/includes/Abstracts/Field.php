@@ -21,11 +21,6 @@ abstract class NF_Abstracts_Field
     protected $_section = '';
 
     /**
-    * @var string
-    */
-    protected $_icon = 'square-o';
-
-    /**
      * @var array
      */
     protected $_aliases = array();
@@ -182,11 +177,6 @@ abstract class NF_Abstracts_Field
     public function get_section()
     {
         return $this->_section;
-    }
-
-    public function get_icon()
-    {
-        return $this->_icon;
     }
 
     public function get_aliases()

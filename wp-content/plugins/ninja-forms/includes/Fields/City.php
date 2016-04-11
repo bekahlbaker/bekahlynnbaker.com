@@ -12,8 +12,6 @@ class NF_Fields_City extends NF_Fields_Textbox
 
     protected $_section = 'userinfo';
 
-    protected $_icon = 'map-marker';
-
     protected $_templates = 'city';
 
     protected $_test_value = 'Cleveland';

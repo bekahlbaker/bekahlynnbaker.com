@@ -11,8 +11,6 @@ class NF_Fields_Date extends NF_Fields_Textbox
 
     protected $_section = 'common';
 
-    protected $_icon = 'calendar';
-
     protected $_type = 'date';
 
     protected $_templates = 'date';

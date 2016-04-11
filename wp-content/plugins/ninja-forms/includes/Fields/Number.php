@@ -9,8 +9,6 @@ class NF_Fields_Number extends NF_Abstracts_Input
 
     protected $_section = 'misc';
 
-    protected $_icon = 'hashtag';
-
     protected $_type = 'number';
 
     protected $_templates = 'number';

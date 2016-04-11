@@ -13,8 +13,6 @@ class NF_Fields_ListSelect extends NF_Abstracts_List
 
     protected $_section = 'common';
 
-    protected $_icon = 'chevron-down';
-
     protected $_templates = 'listselect';
 
     protected $_old_classname = 'list-select';

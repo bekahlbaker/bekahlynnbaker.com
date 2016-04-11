@@ -10,8 +10,6 @@ class NF_Fields_CreditCardCVC extends NF_Abstracts_Input
 
     protected $_section = '';
 
-    protected $_icon = 'credit-card';
-
     protected $_templates = 'textbox';
 
     protected $_test_value = '1234';
