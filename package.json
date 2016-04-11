@@ -1,0 +1,24 @@
+{
+  "name": "bekahlynnbaker.com",
+  "version": "1.0.0",
+  "description": "<h1>BekahLynnBaker.com</h1> <p>Full website, including WP core, plugins and themes.</p>",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "shipit-deploy": "^2.1.3",
+    "shipitjs": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bekahlbaker/bekahlynnbaker.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bekahlbaker/bekahlynnbaker.com/issues"
+  },
+  "homepage": "https://github.com/bekahlbaker/bekahlynnbaker.com#readme"
+}
