@@ -1,0 +1,51 @@
+
+// Content-block is a class you can add to..you guessed it... a content block. 
+// Gives general padding, etc. to keep things neat.
+.content-block{
+	padding: 50px 0;
+}
+
+.content{
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+h2{
+	color: $pink;
+	font-family:'Courgette', cursive;
+	font-size: 3em;
+}
+
+h3{
+	color: $pink;
+	font-family:'Courgette', cursive;
+	font-size: 1.75em;
+}
+
+h4{
+	color: $pink;
+	font-family:'Courgette', cursive;
+	font-size: 1.25em;
+}
+
+
+hr{
+	border-top: 1px solid $gray;
+	width: 100px;
+}
+
+img{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	max-width: 150px;
+}
+
+p{
+	color: $gray;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}

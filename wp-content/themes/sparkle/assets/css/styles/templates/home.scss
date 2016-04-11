@@ -1,0 +1,98 @@
+.home{
+	background: #D24D57;
+
+
+		.hero{
+		background: #D24D57;
+		padding-bottom: 145px;
+		padding-top: 300px;
+		text-align: center;
+
+
+		.button{
+			color: $white;
+			font-family:'Lato', sans-serif;
+			font-size: 1.25em;
+			font-weight: 400;
+			padding: 20px 80px;
+			text-decoration: none;
+			text-transform: uppercase;
+
+			&:hover{
+				background: $white;
+				color: $gray;
+				text-decoration: none;
+			}
+		}
+	}
+
+	h1{
+		color: white;
+		font-family:'Courgette', cursive;
+		font-size: 4.5em;
+		margin-bottom: 40px;
+	}
+
+	.about{
+		background: #FAFAFA;
+	}
+
+	.skills{
+		background: #F2F2F2;
+	}
+
+	.portfolio{
+		background: #EBEBEB;
+	}
+
+	.learning{
+		background: #E3E3E3;
+	}
+
+	.contact{
+		background: #DBDBDB;
+
+		.contact-main{
+			padding-bottom: 50px;
+			padding-top: 50px;
+			max-width: 600px;
+			@include horizontal-center-element;
+
+			.ninja-forms-required-items{
+				color: $gray;
+				font-family: 'Lato', sans-serif;
+				font-size: 1em;
+				font-weight: 400;
+				text-transform: uppercase;
+			}
+
+			#ninja_forms_field_5{
+				background-color: transparent;
+				border: none;
+				color: $white;
+				font-family:'Lato', sans-serif;
+				font-size: 1.25em;
+				font-weight: 400;
+				padding: 20px 80px;
+				text-decoration: none;
+				text-transform: uppercase;
+
+				&:hover{
+					background: $white;
+					color: $gray;
+					text-decoration: none;
+				}
+
+			}
+
+			label{
+				color: $pink;
+				font-family: 'Lato', sans-serif;
+				font-size: 1em;
+				font-weight: 400;
+				text-transform: uppercase;
+			}
+
+		}
+	}
+}

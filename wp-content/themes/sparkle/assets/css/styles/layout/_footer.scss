@@ -1,0 +1,30 @@
+footer{
+	background: #F1A9A0;
+	text-align: center;
+
+	.social{
+		margin: 0;
+
+		li{
+			display: inline-block;
+			list-style: none;
+			padding: 30px 45px;
+			text-align: center;
+
+			a{
+				color: white;
+				font-family: 'Lato', sans-serif;
+				font-size: 1em;
+				font-weight: 400;
+				padding: 12px 20px;
+				text-transform: uppercase;
+
+				&:hover{
+					background: $white;
+					color: $gray;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
