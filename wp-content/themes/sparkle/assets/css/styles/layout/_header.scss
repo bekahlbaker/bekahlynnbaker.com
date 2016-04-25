@@ -4,15 +4,15 @@
 	.headshot{
 		padding-left: 70px;
 
-		@media (max-width: $screen-md-max) {
-			padding-top: 100px; 
-		}
-
 	}
 
 	.nav-links{
 		padding-right: 50px;
 		padding-top: 60px;
+
+		@media (max-width: $screen-md-max){
+			padding-top: 0px;
+		}
 
 		li{
 			display: inline-block;
