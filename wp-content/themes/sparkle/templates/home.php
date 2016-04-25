@@ -67,15 +67,21 @@ Template Name: Home Template
 			</div>
 			<div class="portfolio-main">
 				<div class="row">
-					<div class="col-md-6 work">
+					<div class="col-md-4 work">
 					<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/img/portfolio.png"></a>
 						<a href="<?php bloginfo('url'); ?>"><h4>my portfolio</h4></a>	
 						<p>(seems obvious...but i am proud of this)<br>A custom Wordpress site</p>
 					</div>
-					<div class="col-md-6 work">
+					<div class="col-md-4 work">
 					<a href="http://appletimeinc.com/"><img src="<?php bloginfo('template_directory'); ?>/assets/img/apple-time-logo.png"></a>
 						<a href="http://appletimeinc.com/"><h4>appletimeinc</h4></a>	
 						<p>A custom e-commerce site built with Wordpress/woocommerce</p>
+	<a name="contact" style="text-decoration: none;"></a>
+					</div>
+					<div class="col-md-4 work">
+					<a href="http://comic-quiz.com"><img src="<?php bloginfo('template_directory'); ?>/assets/img/quiz.png"></a>
+						<a href="http://comic-quiz.com"><h4>dc & marvel character quiz</h4></a>	
+						<p>A custom interactive quiz</p>
 	<a name="contact" style="text-decoration: none;"></a>
 					</div>
 				</div>
